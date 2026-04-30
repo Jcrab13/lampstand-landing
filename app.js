@@ -96,34 +96,10 @@
       card.appendChild(wrap);
     }
 
-    const metaParts = [];
     if (entry.published_date) {
-      metaParts.push(`Published ${formatDate(entry.published_date)}`);
-    }
-    if (entry.instagram_url) {
-      metaParts.push({ kind: "link", href: entry.instagram_url, text: "Watch on Instagram \u2192" });
-    }
-    if (metaParts.length > 0) {
       const meta = document.createElement("p");
       meta.className = "story__meta";
-      metaParts.forEach((part, i) => {
-        if (i > 0) {
-          const sep = document.createElement("span");
-          sep.className = "story__meta-sep";
-          sep.textContent = "\u00b7";
-          meta.appendChild(sep);
-        }
-        if (typeof part === "string") {
-          meta.appendChild(document.createTextNode(part));
-        } else if (part.kind === "link") {
-          const a = document.createElement("a");
-          a.href = part.href;
-          a.target = "_blank";
-          a.rel = "noopener noreferrer";
-          a.textContent = part.text;
-          meta.appendChild(a);
-        }
-      });
+      meta.textContent = `Published ${formatDate(entry.published_date)}`;
       card.appendChild(meta);
     }
 
