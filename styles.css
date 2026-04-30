@@ -1,0 +1,335 @@
+/* Lampstand landing page styles
+ * Brand spec from SKILL.md:
+ *   navy   #0E1A2B
+ *   gold   #D4A24C
+ *   cream  #F4EDE0
+ *   serif  Cormorant Garamond Bold (wordmark, story titles)
+ *   sans   Inter (body, UI, captions)
+ * Tone: reverent, slow, contemplative. Generous whitespace. Mobile-first.
+ */
+
+:root {
+  --navy:        #0E1A2B;
+  --navy-deep:   #0A1320;
+  --gold:        #D4A24C;
+  --gold-warm:   #E0B870;
+  --cream:       #F4EDE0;
+  --cream-dim:   rgba(244, 237, 224, 0.65);
+  --cream-faint: rgba(244, 237, 224, 0.35);
+  --rule:        rgba(212, 162, 76, 0.25);
+
+  --serif: "Cormorant Garamond", Garamond, "EB Garamond", Georgia, serif;
+  --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --max-w: 38rem;     /* roughly 608px - tight column for reading */
+  --gutter: 1.5rem;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--cream);
+  color: var(--navy);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: inherit; }
+
+main {
+  display: block;
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  background: var(--navy);
+  color: var(--cream);
+  padding: 4rem var(--gutter) 4.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  /* subtle bottom gradient seam onto cream */
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -1px;
+  height: 1px;
+  background: var(--rule);
+}
+
+.hero__logo {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.75rem;
+  background: var(--navy-deep);
+  box-shadow: 0 0 60px rgba(212, 162, 76, 0.18);
+}
+
+.hero__wordmark {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(1.75rem, 6vw, 2.75rem);
+  letter-spacing: 0.06em;
+  margin: 0 0 0.5rem;
+  color: var(--cream);
+  text-shadow: 0 0 28px rgba(212, 162, 76, 0.18);
+}
+
+.hero__tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--gold-warm);
+  font-size: clamp(1.05rem, 3vw, 1.25rem);
+  letter-spacing: 0.02em;
+  margin: 0 0 2rem;
+}
+
+.hero__follow {
+  display: inline-block;
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  text-decoration: none;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid var(--cream-faint);
+  border-radius: 999px;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.hero__follow:hover,
+.hero__follow:focus-visible {
+  color: var(--navy);
+  background: var(--cream);
+  border-color: var(--cream);
+}
+
+/* ---------- About ---------- */
+
+.about {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 3.5rem var(--gutter) 2rem;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  line-height: 1.55;
+  color: var(--navy);
+  text-align: center;
+}
+
+.about p {
+  margin: 0;
+}
+
+/* ---------- Stories ---------- */
+
+.stories {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 1.5rem var(--gutter) 5rem;
+}
+
+.stories h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-align: center;
+  margin: 2rem 0 2.5rem;
+  position: relative;
+}
+
+.stories h2::before,
+.stories h2::after {
+  content: "";
+  display: inline-block;
+  width: 2.5rem;
+  height: 1px;
+  background: var(--rule);
+  vertical-align: middle;
+  margin: 0 0.85rem;
+}
+
+.stories__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.stories__loading,
+.stories__empty {
+  text-align: center;
+  font-style: italic;
+  color: rgba(14, 26, 43, 0.55);
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+
+/* ---------- Story card ---------- */
+
+.story {
+  border-top: 1px solid var(--rule);
+  padding-top: 2.25rem;
+}
+
+.story:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.story__subject {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(1.6rem, 5vw, 2rem);
+  letter-spacing: 0.01em;
+  color: var(--navy);
+  margin: 0 0 0.4rem;
+  line-height: 1.15;
+}
+
+.story__tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--gold);
+  font-size: 1.1rem;
+  margin: 0 0 1.25rem;
+}
+
+.story__summary {
+  margin: 0 0 1.5rem;
+  color: var(--navy);
+}
+
+.story__sources {
+  margin: 0 0 1rem;
+}
+
+.story__sources-label {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--gold);
+  margin: 0 0 0.5rem;
+}
+
+.story__sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.story__sources-list li {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.story__sources-list a {
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  transition: color 0.2s ease, border-color 0.2s ease;
+  word-break: break-word;
+}
+
+.story__sources-list a:hover,
+.story__sources-list a:focus-visible {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+.story__meta {
+  margin-top: 1.25rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: rgba(14, 26, 43, 0.6);
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.85rem;
+}
+
+.story__meta a {
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+.story__meta a:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+.story__meta-sep {
+  color: var(--rule);
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  background: var(--navy);
+  color: var(--cream-dim);
+  padding: 2.5rem var(--gutter);
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.footer p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.footer a {
+  color: var(--cream);
+  text-decoration: none;
+  border-bottom: 1px solid var(--cream-faint);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.footer a:hover,
+.footer a:focus-visible {
+  color: var(--gold-warm);
+  border-color: var(--gold);
+}
+
+/* ---------- Wider screens: still narrow column, just more breathing room ---------- */
+
+@media (min-width: 720px) {
+  .hero {
+    padding: 5.5rem var(--gutter) 6rem;
+  }
+  .hero__logo {
+    width: 200px;
+    height: 200px;
+  }
+  .about {
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+  .stories {
+    padding-bottom: 7rem;
+  }
+}
