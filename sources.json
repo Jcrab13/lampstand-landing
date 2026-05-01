@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-04-30",
+  "updated_at": "2026-05-01",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -13,6 +13,17 @@
         "https://www.amazon.com/Saved-Angels-Story-Brought-Eternity/dp/0768427231"
       ],
       "published_date": "2026-04-30"
+    },
+    {
+      "slug": "annabel-beam",
+      "subject": "Annabel Beam",
+      "tagline": "she met Jesus there",
+      "summary": "Nine-year-old Texas girl with rare incurable digestive disorder (pseudo-obstruction motility disorder). Falls 30 feet straight down inside a hollow cottonwood tree. Unconscious for 5 hours during the rescue. Reports visiting heaven and meeting Jesus. Comes out uninjured — and her documented digestive disorder is gone. Specialist Dr. Samuel Nurko at Boston Children's confirms the inexplicable disappearance.",
+      "source_urls": [
+        "https://www.guideposts.org/inspiring-stories/stories-of-faith/heres-the-true-story-of-the-tree-fall-and-miracle-from-miracles-from-heaven/",
+        "https://www.amazon.com/Miracles-Heaven-Astonishing-Daughters-Healing/dp/0316381837"
+      ],
+      "published_date": "2026-05-01"
     }
   ]
 }
