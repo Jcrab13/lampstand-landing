@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-01",
+  "updated_at": "2026-05-05",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -24,6 +24,17 @@
         "https://www.amazon.com/Miracles-Heaven-Astonishing-Daughters-Healing/dp/0316381837"
       ],
       "published_date": "2026-05-01"
+    },
+    {
+      "slug": "don-piper",
+      "subject": "Don Piper",
+      "tagline": "ninety minutes gone",
+      "summary": "Texas pastor returning from a conference in January 1989. An eighteen-wheeler crosses the centerline head-on. Paramedics declare him dead at the scene — no pulse, no breathing, ninety minutes. Another pastor named Dick Onerecker stops at the wreckage, climbs into the crushed car, and prays over the body. Don begins to sing along with the hymn Dick prays.",
+      "source_urls": [
+        "https://guideposts.org/angels-and-miracles/life-after-death/don-piper-on-90-minutes-in-heaven/",
+        "https://www.facebook.com/DonPiperMinistries/"
+      ],
+      "published_date": "2026-05-05"
     }
   ]
 }
