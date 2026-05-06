@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-06",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -35,6 +35,18 @@
         "https://www.facebook.com/DonPiperMinistries/"
       ],
       "published_date": "2026-05-05"
+    },
+    {
+      "slug": "maximilian-kolbe",
+      "subject": "Maximilian Kolbe",
+      "tagline": "he took his place",
+      "summary": "Auschwitz, July 1941. A prisoner escapes; the punishment is ten random men selected to die by starvation. The tenth man, Franciszek Gajowniczek, cries out for his wife and children. A Polish Franciscan priest steps forward — 'I am a Catholic priest, let me take his place.' The commander allows it. Two weeks later Kolbe is killed by lethal injection. Gajowniczek lives another fifty-three years and attends Kolbe's canonization in 1982.",
+      "source_urls": [
+        "https://www.auschwitz.org/en/education/e-learning/podcast/the-sacrifice-and-death-of-father-maximilian-kolbe/",
+        "https://www.vaticannews.va/en/church/news/2018-08/maximilian-kolbe-martyr-auschwitz.html",
+        "https://en.wikipedia.org/wiki/Maximilian_Kolbe"
+      ],
+      "published_date": "2026-05-06"
     }
   ]
 }
