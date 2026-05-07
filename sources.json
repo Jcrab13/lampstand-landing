@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-07",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -47,6 +47,17 @@
         "https://en.wikipedia.org/wiki/Maximilian_Kolbe"
       ],
       "published_date": "2026-05-06"
+    },
+    {
+      "slug": "chilean-miners",
+      "subject": "The 33 Chilean Miners",
+      "tagline": "they prayed for sixty-nine days",
+      "summary": "San José Mine, Chile, August 2010. Thirty-three miners trapped seven hundred metres underground after a copper-and-gold mine collapse. José Henríquez emerges as the spiritual leader — leading twice-daily prayer for the sixty-nine days they wait. By the time the rescue capsule reaches them, all 33 are alive; 22 have committed their lives to faith. The world watches the rescue live.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/2010_Copiap%C3%B3_mining_accident",
+        "https://www.dbu.edu/news/2012/03/chilean-miner-speaks-at-dbu-chapel.html"
+      ],
+      "published_date": "2026-05-07"
     }
   ]
 }
