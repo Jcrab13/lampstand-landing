@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-08",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -58,6 +58,17 @@
         "https://www.dbu.edu/news/2012/03/chilean-miner-speaks-at-dbu-chapel.html"
       ],
       "published_date": "2026-05-07"
+    },
+    {
+      "slug": "helen-roseveare",
+      "subject": "Helen Roseveare",
+      "tagline": "the parcel arrived that afternoon",
+      "summary": "Eastern Congo, 1970s. British medical missionary delivers a premature baby; the mother dies, the only hot water bottle in the hospital bursts. A young African girl named Ruth prays simply: please send a hot water bottle today, and a doll for the baby's sister. That afternoon a parcel arrives — shipped from England five months earlier — containing exactly that.",
+      "source_urls": [
+        "https://bible.org/illustration/hot-water-bottle",
+        "https://www.fahanchurch.org/thehotbottlewatertruestorybyhelenroseveare.htm"
+      ],
+      "published_date": "2026-05-08"
     }
   ]
 }
