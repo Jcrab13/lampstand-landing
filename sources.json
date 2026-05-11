@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-08",
+  "updated_at": "2026-05-11",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -69,6 +69,17 @@
         "https://www.fahanchurch.org/thehotbottlewatertruestorybyhelenroseveare.htm"
       ],
       "published_date": "2026-05-08"
+    },
+    {
+      "slug": "eben-alexander",
+      "subject": "Eben Alexander",
+      "tagline": "the sister he never met",
+      "summary": "Harvard-trained neurosurgeon contracts severe E. coli bacterial meningitis. Falls into a 7-day coma in 2008 Lynchburg Virginia. Reports an extended near-death experience — celestial realm, divine intelligence, meeting his deceased biological sister whom he'd never met. He was adopted; only saw her photo after recovering. Wrote *Proof of Heaven* in 2012.",
+      "source_urls": [
+        "https://ebenalexander.com/books/proof-of-heaven/",
+        "https://www.newsweek.com/proof-heaven-doctors-experience-afterlife-65327"
+      ],
+      "published_date": "2026-05-11"
     }
   ]
 }
