@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-11",
+  "updated_at": "2026-05-12",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -80,6 +80,17 @@
         "https://www.newsweek.com/proof-heaven-doctors-experience-afterlife-65327"
       ],
       "published_date": "2026-05-11"
+    },
+    {
+      "slug": "brother-andrew",
+      "subject": "Brother Andrew",
+      "tagline": "make seeing eyes blind",
+      "summary": "Romanian border, 1955. Dutch missionary in his late twenties drives a baby-blue Volkswagen Beetle through the Iron Curtain, the back filled with Bibles for the underground church. At the border he prays a single sentence: make seeing eyes blind, do not let the guards see what you do not want them to see. The guards wave him through. He repeats the journey for thirty years and founds Open Doors.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Andrew_van_der_Bijl",
+        "https://www.opendoorsuk.org/about/our-history/brother-andrew/"
+      ],
+      "published_date": "2026-05-12"
     }
   ]
 }
