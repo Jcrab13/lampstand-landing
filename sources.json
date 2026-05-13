@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-12",
+  "updated_at": "2026-05-13",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -91,6 +91,17 @@
         "https://www.opendoorsuk.org/about/our-history/brother-andrew/"
       ],
       "published_date": "2026-05-12"
+    },
+    {
+      "slug": "howard-storm",
+      "subject": "Howard Storm",
+      "tagline": "the atheist who cried out",
+      "summary": "Paris, June 1985. Cincinnati art professor and committed atheist suffers a perforated stomach on a museum trip. Doctors leave him untreated overnight. He has a near-death experience that begins dark — dragged toward malevolent figures — until he cries the name of Jesus and is lifted into divine light. Resigns his university post. Becomes an ordained pastor.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Howard_Storm_(author)",
+        "https://lifebeyonddeath.tv/howard-storm/"
+      ],
+      "published_date": "2026-05-13"
     }
   ]
 }
