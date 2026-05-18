@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-18",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -102,6 +102,17 @@
         "https://lifebeyonddeath.tv/howard-storm/"
       ],
       "published_date": "2026-05-13"
+    },
+    {
+      "slug": "nicky-cruz",
+      "subject": "Nicky Cruz",
+      "tagline": "every piece would still love you",
+      "summary": "Brooklyn, 1958. Mau Maus gang warlord, raised in Puerto Rico in a home of practising spiritualism, runs the most feared street gang in New York. Encounters David Wilkerson on a street corner: a thin Pennsylvania preacher who says 'Jesus loves you.' Cruz threatens to kill him; Wilkerson replies, 'You could cut me in a thousand pieces and lay them in the street, and every piece would still love you.' Cruz converts within months.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Nicky_Cruz",
+        "https://nickycruz.org/"
+      ],
+      "published_date": "2026-05-18"
     }
   ]
 }
