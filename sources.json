@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-26",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -113,6 +113,17 @@
         "https://nickycruz.org/"
       ],
       "published_date": "2026-05-18"
+    },
+    {
+      "slug": "asia-bibi",
+      "subject": "Asia Bibi",
+      "tagline": "eight years on death row",
+      "summary": "Punjab, Pakistan, June 2009. Christian farmworker, mother of five, drinks from a well in 102°F heat. Muslim co-workers refuse to drink after her — she's 'unclean.' The argument escalates; days later she's accused of blasphemy under Pakistan's 295-C law. Sentenced to death November 2010. Spends eight years on death row. October 2018, the Pakistani Supreme Court acquits her unanimously.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Asia_Bibi_blasphemy_case",
+        "https://www.npr.org/2018/10/31/662417349/pakistan-acquits-asia-bibi-christian-woman-on-death-row-for-blasphemy"
+      ],
+      "published_date": "2026-05-26"
     }
   ]
 }
