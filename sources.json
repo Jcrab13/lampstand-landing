@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-26",
+  "updated_at": "2026-05-27",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -124,6 +124,17 @@
         "https://www.npr.org/2018/10/31/662417349/pakistan-acquits-asia-bibi-christian-woman-on-death-row-for-blasphemy"
       ],
       "published_date": "2026-05-26"
+    },
+    {
+      "slug": "lee-strobel",
+      "subject": "Lee Strobel",
+      "tagline": "the case against himself",
+      "summary": "Chicago, 1981. Atheist legal-affairs editor at the *Chicago Tribune*, Yale Law–trained. His wife Leslie converts to Christianity; he sets out to prove the resurrection a hoax — interviewing thirteen scholars over two years to demolish the case. On November 8, 1981, after compiling the evidence against himself, he reverses position and converts. *The Case for Christ* (1998) reconstructs the investigation.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Lee_Strobel",
+        "https://leestrobel.com/"
+      ],
+      "published_date": "2026-05-27"
     }
   ]
 }
