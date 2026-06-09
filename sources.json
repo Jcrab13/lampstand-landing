@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-05-27",
+  "updated_at": "2026-06-09",
   "entries": [
     {
       "slug": "bruce-van-natta",
@@ -135,6 +135,18 @@
         "https://leestrobel.com/"
       ],
       "published_date": "2026-05-27"
+    },
+    {
+      "slug": "auca-martyrs",
+      "subject": "Jim Elliot & the Auca martyrs",
+      "tagline": "gates of splendor",
+      "summary": "Ecuador, January 1956. Five young American missionaries fly onto a sandbar to make first contact with the Huaorani tribe. After days of friendly contact, the tribesmen kill all five. Documented by *LIFE Magazine* with Cornell Capa's photographs. Then Jim Elliot's widow Elisabeth and Nate Saint's sister Rachel return to live among the same tribe — and lead many of the killers, including the man who speared Jim, to faith.",
+      "source_urls": [
+        "https://maf.org/about/history/jim-elliot/",
+        "https://elisabethelliot.org/resource-library/books/through-gates-of-splendor-2/",
+        "https://www.thegospelcoalition.org/blogs/justin-taylor/they-were-no-fools-60-years-ago-today-the-martyrdom-of-jim-elliot-and-four-other-missionaries/"
+      ],
+      "published_date": "2026-06-09"
     }
   ]
 }
